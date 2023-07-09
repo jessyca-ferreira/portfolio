@@ -69,21 +69,16 @@
 
 .slider__scroller {
     position: absolute;
-    top: 7rem;
+    top: 2rem;
     left: 7rem;
     
     width: 70vw;
-    height: 65vh;
+    height: 70vh;
 
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: calc(70vw - 5rem);
-
-    overflow-x: auto;
-    overflow-y: hidden;
+    overflow-y: auto;
     overscroll-behavior-inline: contain;
 
-    scroll-snap-type: inline mandatory;
+    scroll-snap-type: y mandatory;
 }
 
 .slider__scroller > * {
@@ -125,3 +120,7 @@ h1 {
     vertical-align: middle;
 }
 
+.slider__card {
+    padding-top: 4rem;
+    margin-bottom: 10rem;
+}
