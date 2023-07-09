@@ -1,0 +1,127 @@
+@import url(./global.css);
+
+.menu {
+    margin: 0.5rem;
+    width: (100% - 0.5rem);
+    height: 4rem;
+    text-align: center;
+}
+
+.menu__item {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 0 1rem 0 0.5rem;
+    transition: transform 0.1s ease-in;
+}
+
+.menu__item:hover {
+    text-decoration-line: overline;
+    text-decoration-style: wavy;
+    text-decoration-color: var(--accent-color);
+    transform: scale(1.1);
+}
+
+#menu__icon {
+    width: 4rem;
+    vertical-align: middle;
+}
+
+.slider {
+    padding: 2rem;
+    height: calc(100vh - 5rem);
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.slider__control {
+    display: inline-block;
+    position: absolute;
+    left: 4rem;
+    z-index: 10;
+}
+
+.slider__btn {
+    border: 1px solid honeydew;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    color: var(--accent-color-dark);
+    background-color: var(--accent-color);
+    display: block;
+    margin: 4rem 0 4rem;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider__btn:hover {
+    transform: scale(1.5) rotate(1turn);
+}
+
+#slider__line {
+    display: inline-block;
+    background-color: var(--accent-color-light);
+    height: 60%;
+    width: 1px;
+    position: absolute;
+    left: 4.5rem;
+}
+
+.slider__scroller {
+    position: absolute;
+    top: 7rem;
+    left: 7rem;
+    
+    width: 70vw;
+    height: 65vh;
+
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc(70vw - 5rem);
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-inline: contain;
+
+    scroll-snap-type: inline mandatory;
+}
+
+.slider__scroller > * {
+    scroll-snap-align: start;
+}
+
+.slider__scroller p {
+    margin-bottom: 1rem;
+    width: 50vw;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+}
+
+#my-name {
+    color: var(--accent-color-secondary);
+}
+
+.social-link {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin: 0.4rem;
+    width: 10rem;
+}
+
+.social-link:hover {
+    opacity: 0.7;
+}
+
+.social-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
