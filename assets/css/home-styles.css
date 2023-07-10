@@ -99,11 +99,11 @@ h1 {
 }
 
 h2 {
-    color: var(--accent-color-secondary);
+    color: var(--accent-color);
     text-transform: uppercase;
     text-decoration-line: underline;
     text-decoration-style: wavy;
-    text-decoration-color: var(--accent-color-secondary);
+    text-decoration-color: var(--accent-color);
     margin: 0 1rem 1.2rem 0;
     letter-spacing: 0.2rem;
 }
