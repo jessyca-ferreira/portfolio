@@ -11,13 +11,13 @@
         <nav class="menu">
             <ul>
                 <li class="menu__item">
-                    Currículo
+                    <a href="https://drive.google.com/file/d/14eNWJYISyq31riTKU2XudAyU-HScxXHU/view?usp=sharing">Currículo</a>
                 </li>
                 <li class="menu__item">
                     <img id="menu__icon" src="./assets/images/moth-logo.png" alt="moth drawing">
                 </li>
                 <li class="menu__item">
-                    Contato
+                    <a href="linkedin.com/in/jessyca-ferreira">Contato</a>
                 </li>
             </ul>
         </nav>
@@ -33,7 +33,7 @@
             </div>
 
             <div class="slider__scroller">
-                <div class="slider__card">
+                <div class="slider__card" id="introduction">
                     <h1>
                         Olá! Sou <span id="my-name">Jessyca Ferreira</span>.
                     </h1>
@@ -51,40 +51,75 @@
                     </a>
                 </div>
                 
-                <div class="slider__card">
-                    <h1>
-                        Olá! Sou <span id="my-name">Jessyca Ferreira</span>.
-                    </h1>
-                    <p>
-                        Desenvolvedora de Recife, Pernambuco, atualmente cursando a graduação de Ciência da Computação na UFPE. Sou Jessyca, tenho 18 anos e minha paixão por tecnologia começou aos 11, com a descoberta de HTML/CSS, continuou na minha adolescência quando cursei Desenvolvimento de Sistemas integrado ao ensino médio e hoje é firmada cada vez mais ao passar dos dias. Atualmente, foco meus esforços em Java e Angular.
-                    </p>
-
-                    <a href="https://www.linkedin.com/in/jessyca-ferreira/" target="_blank" class="social-link">
-                        <img class="social-icon" src="./assets/images/linkedin.png">
-                        Linkedin
-                    </a>
-                    <a href="https://github.com/jessyca-ferreira" target="_blank" class="social-link">
-                        <img class="social-icon" src="./assets/images/github.png">
-                        Github
-                    </a>
+                <div class="slider__card" id="skills">
+                    <div id="hard-skills">
+                        <h2>Hard Skills</h2>
+                        <ul class="hard-skills__items">
+                            <li>Python</li>
+                            <li>Javascript</li>
+                            <li>Java</li>
+                            <li>Programação Orientada a Objetos</li>
+                            <li>Programação Lógica</li>
+                            <li>SQL</li>
+                            <li>HTML/CSS</li>
+                            <li>Versionamento com git e github</li>
+                        </ul>
+                    </div>
+                    <div id="soft-skills">
+                        <h2>Soft Skills</h2>
+                        <ul class="soft-skills__items">
+                            <li>Adaptabilidade</li>
+                            <li>Criatividade</li>
+                            <li>Comunicação Assertiva</li>
+                            <li>Rapido Aprendizado</li>
+                        </ul>
+                    </div>
+                    <div id="languages">
+                        <h2>Idiomas</h2>
+                        <ul class="languages__items">
+                            <li>Português (Nativo)</li>
+                            <li>Inglês (Avançado)</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="slider__card">
-                    <h1>
-                        Olá! Sou <span id="my-name">Jessyca Ferreira</span>.
-                    </h1>
-                    <p>
-                        Desenvolvedora de Recife, Pernambuco, atualmente cursando a graduação de Ciência da Computação na UFPE. Sou Jessyca, tenho 18 anos e minha paixão por tecnologia começou aos 11, com a descoberta de HTML/CSS, continuou na minha adolescência quando cursei Desenvolvimento de Sistemas integrado ao ensino médio e hoje é firmada cada vez mais ao passar dos dias. Atualmente, foco meus esforços em Java e Angular.
-                    </p>
+                <div class="slider__card" id="other-info">
+                    <details class="info-list" id="experience">
+                        <summary>
+                            <h2>
+                                Experiência
+                            </h2>
+                        </summary>
+                        Monitora voluntária de Introdução a Programação - Universidade Federal de Pernambuco
+                        <br>
+                        DESDE JAN, 2023
+                        <br>
+                        Elaboração e correção de desafios que trabalhem a lógica de programação e facilitação de aulas presenciais.
+                    </details>
+                    
+                    <details class="info-list" id="education">
+                        <summary>
+                            <h2>
+                                Formação
+                            </h2>
+                        </summary>
+                        CIÊNCIA DA COMPUTAÇÃO - Universidade Federal de Pernambuco
+                        <br>
+                        JUNHO DE 2022 - JUNHO 2026  
+                    </details>
 
-                    <a href="https://www.linkedin.com/in/jessyca-ferreira/" target="_blank" class="social-link">
-                        <img class="social-icon" src="./assets/images/linkedin.png">
-                        Linkedin
-                    </a>
-                    <a href="https://github.com/jessyca-ferreira" target="_blank" class="social-link">
-                        <img class="social-icon" src="./assets/images/github.png">
-                        Github
-                    </a>
+                    <details class="info-list" id="certifications">
+                        <summary>
+                            <h2>
+                                Outros cursos e certificações
+                            </h2>
+                        </summary>
+                        Versionamento com Git e Github - DIO
+                        <br>
+                        Princípios de desenvolvimento de software - DIO
+                        <br>
+                        Fundamentos do React - DIO
+                    </details>
                 </div>
             </div>
         </div>

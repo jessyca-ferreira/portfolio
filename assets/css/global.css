@@ -4,6 +4,7 @@
     --belanosima: 'Belanosima', sans-serif;
     --bg-color: #f4f2f8;
     --text-color: #090601;
+    --text-color-secondary: rgb(126, 126, 123);
     --accent-color:  rgb(192, 216, 238);
     --accent-color-secondary: rgb(147, 198, 247);
     --accent-color-dark: #090601;
@@ -11,7 +12,6 @@
 }
 
 * {
-    list-style: none;
     border: 0;
     margin: 0;
     padding: 0;
@@ -25,5 +25,9 @@ body {
 }
 
 a:visited {
-    color: var(--text-color)
+    color: var(--text-color);
+}
+
+a:active {
+    color: var(--text-color);
 }
